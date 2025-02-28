@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- 使用 Fetch 工具 或者 firecrawl 工具去获取页面数据
+- 使用 Daipendency 工具 获取依赖项的文档
