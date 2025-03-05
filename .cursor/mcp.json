@@ -9,18 +9,21 @@
         "fetch"
       ]
     },
-    "time": {
-      "command": "uvx",
+    "sentry": {
+      "command": "python",
       "args": [
-        "mcp-server-time"
-      ]
-    },
-    "weather": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@StevenStavrakis/mcp-starter-template"
-      ]
+        "-m",
+        "mcp_server_sentry",
+        "--auth-token",
+        "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",
+        "--project-slug",
+        "technology-daily",
+        "--organization-slug",
+        "qianniuspace"
+      ],
+      "env": {
+        "PYTHONPATH": "/Volumes/ExtremeSSD/MCP/mcp-sentry/src"
+      }
     }
   }
 }
