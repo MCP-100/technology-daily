@@ -1,29 +1,16 @@
 {
   "mcpServers": {
-    "fetch": {
+    "sentry": {
       "command": "uvx",
       "args": [
-        "mcp-server-fetch"
-      ],
-      "autoApprove": [
-        "fetch"
-      ]
-    },
-    "sentry": {
-      "command": "python",
-      "args": [
-        "-m",
-        "mcp_server_sentry",
+        "mcp-sentry",
         "--auth-token",
-        "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",
+        "YOUR_SENTRY_TOKEN",
         "--project-slug",
-        "technology-daily",
+        "YOUR_PROJECT_SLUG",
         "--organization-slug",
-        "qianniuspace"
-      ],
-      "env": {
-        "PYTHONPATH": "/Volumes/ExtremeSSD/MCP/mcp-sentry/src"
-      }
+        "YOUR_ORGANIZATION_SLUG"
+      ]
     }
   }
 }
